@@ -1,0 +1,72 @@
+.container{
+    background-color: #a1ffff;
+
+  }
+  .mensagens {
+    padding: 0 0 50px 0;
+  }
+  .cor_texto{
+    color:#1465bb;
+  }
+
+  .chat_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+
+ .msg_history {
+    height: 516px;
+    width: 43%;
+    overflow-y: auto;
+  }
+
+  .inbox_msg {
+    border: 1px solid #008a89;
+  }
+
+  .msg_enviada p {
+    background: #dac9df none repeat scroll 0 0;
+    border-radius: 5qpx;
+    font-size: 14px;
+    margin: 0;
+    color: black;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+  }
+  .msg_enviada {
+    float: left;
+    margin: 5px;
+    width:90%;
+  }
+
+  .digitar_msg {
+    margin: 5px;
+    border-top: 1px solid #c4c4c4 ;
+    position: relative;
+    border:#008a89;
+  }
+
+  .input_digitar_msg input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: black;
+    font-size: 15px;
+    min-height: 48px;
+    width: 100%;
+  }
+  .enviar_msg_btn {
+    background: #b695c0 none repeat scroll 0 0;
+    opacity: 1;
+    border: medium none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 33px;
+  }
